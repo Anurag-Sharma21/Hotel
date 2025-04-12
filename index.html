@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hotel</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <div id="header">
+             <div class="container">
+                  <nav>
+                        <img src="logo.png" class="logo">
+                        <ul id="sideopen">
+                              <li><a href="#header">Home</a></li>
+                              <li><a href="#about">About</a></li>
+                              <li><a href="#service">Service</a></li>
+                              <li><a href="#explore">Explore</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                              <i class="fas fa-times" onclick="closemenu()"></i>
+                        </ul>
+                         <button class="nav-btn" onclick="alert('Your Booked Hotel In Succesfull')">Book Now</button>
+                        <i class="fas fa-bars" onclick="
+                  openmenu()"></i> 
+                  <!-- <a href="login/index.html" class="nav-btn">Book Now</a> -->
+                  </nav>
+                  <div class="header-text">
+                        <p>Simple - Unique - Friendly</p>
+                        <h1>Make Yourself At Home
+                             <br> In Our <span>Hotel</span></h1>
+                  </div>
+             </div>
+      </div>
+
+<!--------------------------------------- About------------------------ -->
+<div id="about">
+      <div class="container">
+            <div class="row">
+                  <div class="colom-1">
+                        <img src="about.jpg">
+                  </div>
+                  <div class="colom-2">
+                              <p class="menu">About</p>                     
+                              <h1>The Best Holidays Start Here!</h1>
+                              <p class="text"> a focus on quality accommodations, personalized experiences, and seamless booking, our platform is dedicated to ensuring that every traveler embarks on their dream holiday with confidence and excitement.</p>
+                              <button class="nav-btn-2">Read More</button>
+                  </div>
+            </div>
+      </div>
+     
+<!-- ------------------------------services-------------------------- -->
+ <div id="service">
+      <div class="container">
+            <p class="menu">Service</p> 
+            <h3>The Most Memorable Rest Time Starts Here.</h3>
+            <div class="service-list">
+                  <div>
+                        <img src="room-1.jpg">
+                        <h2>Deluxe Ocean View</h2>
+                        <p>Bask in luxury with breathtaking ocean views from your private suite.Starting from<span> $299/night</span></p>
+                        <button class="nav-btn-2">Book Now</button>
+                  </div>
+                  <div>
+                        <img src="room-2.jpg">
+                        <h2>Executive Cityscape Room</h2>
+                        <p>Experience urban elegance and modern comfort in the heart of the city.Starting from<span> $199/night</span></p>
+                        <button class="nav-btn-2">Book Now</button>
+                  </div>
+                  <div>
+                        <img src="room-3.jpg">
+                        <h2>Family Garden Retreat</h2>
+                        <p>Spacious and inviting, perfect for creating cherished memories with loved ones.Starting from<span> $249/night</span></p>
+                        <button class="nav-btn-2">Book Now</button>
+                  </div>
+            </div>
+      </div>
+ </div>
+<!------------------------------- Explore-------------------------- -->
+<div id="explore">
+      <div class="container">
+            <p class="menu">Explore</p>
+            <div class="explore-list">
+                  <div class="explore">
+                        <img src="dish1.avif">
+                        <div class="layer">
+                              <h4>Shamosha</h4>
+                              <p>Shamosha is a popular dish in the region, made with a variety of-<span>Royal Prak</span></p>
+                              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                  </div>
+                  <div class="explore">
+                        <img src="dish2.avif">
+                        <div class="layer">
+                              <h4>Keshar Milk</h4>
+                              <p>Blanched and sliced or slivered almonds are used as the main ingredient.Saffron threads are used to give the halwa its distinctive yellow color and flavor.-<span>Royal Prak</span></p>
+                              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                  </div>
+                  <div class="explore">
+                        <img src="dish3.avif">
+                        <div class="layer">
+                              <h4>Breakfast</h4>
+                              <p>Cereals: Oatmeal, cornflakes, muesli, or other breakfast cereals
+                              Toast, bagels, English muffins,- <span>Royal Prak</span></p>
+                              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                  </div>
+            </div>
+            <a href="#" class="nav-btn-3">See More</a>
+      </div>
+</div>
+<div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <p class="menu">Contact Me</p>
+                        <p><i class="fa-solid fa-share-from-square"></i>anu9219@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7800.....</p>
+                        <div class="soical-icon">
+                              <a href="https://instagram"><i class="fa-brands fa-instagram"></i></a>
+                              <a href="https://facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                              <a href="https://whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                              <a href="https://whatsapp"><i class="fa-brands fa-linkedin"></i></a>
+
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>
+</div>
+<!-- ------------------Footer--------------- -->
+ <footer>
+      <div class="container">
+            <div class="copyright">
+                  <h1>© 2024 [Rayal Park].Created by <span>Anu</span>rag</h1>
+            </div>
+      </div>
+ </footer>
+</body>
+<script>
+ let side = document.getElementById("sideopen");
+
+ function openmenu() {
+       side.style.right = "0";
+
+ }
+
+ function closemenu() {   
+      side.style.right = "-250px";
+ }
+</script>
+</html>
